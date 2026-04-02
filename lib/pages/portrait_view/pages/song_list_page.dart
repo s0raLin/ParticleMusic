@@ -3,16 +3,16 @@ import 'dart:async';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/my_auto_size_text.dart';
-import 'package:particle_music/common_widgets/selectable_song_list_page.dart';
-import 'package:particle_music/portrait_view/my_search_field.dart';
-import 'package:particle_music/common_widgets/my_sheet.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/my_auto_size_text.dart';
+import 'package:particle_music/components/selectable_song_list_page.dart';
+import 'package:particle_music/pages/portrait_view/my_search_field.dart';
+import 'package:particle_music/components/my_sheet.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
-import 'package:particle_music/common_widgets/my_location.dart';
-import 'package:particle_music/portrait_view/song_list_tile.dart';
-import 'package:particle_music/common_widgets/base_song_list.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/components/my_location.dart';
+import 'package:particle_music/pages/portrait_view/song_list_tile.dart';
+import 'package:particle_music/components/base_song_list.dart';
+import 'package:particle_music/utils/utils.dart';
 
 class SongListPage extends BaseSongListWidget {
   const SongListPage({

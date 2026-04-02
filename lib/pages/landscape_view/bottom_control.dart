@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/buttons.dart';
-import 'package:particle_music/common_widgets/cover_art_widget.dart';
-import 'package:particle_music/landscape_view/speaker.dart';
-import 'package:particle_music/landscape_view/volume_bar.dart';
-import 'package:particle_music/common_widgets/seekbar.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/buttons.dart';
+import 'package:particle_music/components/cover_art_widget.dart';
+import 'package:particle_music/pages/landscape_view/speaker.dart';
+import 'package:particle_music/pages/landscape_view/volume_bar.dart';
+import 'package:particle_music/components/seekbar.dart';
+import 'package:particle_music/utils/utils.dart';
 
 class BottomControl extends StatelessWidget {
   const BottomControl({super.key});

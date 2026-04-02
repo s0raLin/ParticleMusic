@@ -4,12 +4,12 @@ import 'dart:typed_data';
 import 'package:audio_tags_lofty/audio_tags_lofty.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/cover_art_widget.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/cover_art_widget.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
-import 'package:particle_music/layer/layers_manager.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/pages/layer/layers_manager.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/utils/utils.dart';
 import 'package:smooth_corner/smooth_corner.dart';
 
 void showSongMetadataDialog(BuildContext context, MyAudioMetadata song) async {

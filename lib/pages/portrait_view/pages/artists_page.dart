@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/artists_albums_manager.dart';
-import 'package:particle_music/common_widgets/cover_art_widget.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/layer/layers_manager.dart';
-import 'package:particle_music/portrait_view/my_search_field.dart';
-import 'package:particle_music/common_widgets/my_sheet.dart';
+import 'package:particle_music/viewmodels/artists_albums_manager.dart';
+import 'package:particle_music/components/cover_art_widget.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/pages/layer/layers_manager.dart';
+import 'package:particle_music/pages/portrait_view/my_search_field.dart';
+import 'package:particle_music/components/my_sheet.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
-import 'package:particle_music/common_widgets/my_switch.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/components/my_switch.dart';
+import 'package:particle_music/utils/utils.dart';
 import 'package:smooth_corner/smooth_corner.dart';
 
 class ArtistsPage extends StatelessWidget {

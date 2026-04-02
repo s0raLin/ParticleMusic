@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:particle_music/artists_albums_manager.dart';
-import 'package:particle_music/color_manager.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/navidrome_client.dart';
+import 'package:particle_music/viewmodels/artists_albums_manager.dart';
+import 'package:particle_music/viewmodels/color_manager.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/api/navidrome_client.dart';
 
 class SettingManager {
   late final File file;

@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/my_sheet.dart';
-import 'package:particle_music/common_widgets/playlist_widgets.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/my_sheet.dart';
+import 'package:particle_music/components/playlist_widgets.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/playlists.dart';
-import 'package:particle_music/utils.dart';
-import '../common_widgets/cover_art_widget.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/viewmodels/playlists.dart';
+import 'package:particle_music/utils/utils.dart';
+import '../../components/cover_art_widget.dart';
 
 class SongListTile extends StatelessWidget {
   final int index;

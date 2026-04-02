@@ -5,9 +5,9 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/navidrome_client.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/api/navidrome_client.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 import 'package:smooth_corner/smooth_corner.dart';
 

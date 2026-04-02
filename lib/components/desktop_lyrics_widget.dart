@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/lyrics.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/lyrics.dart';
 
 class DesktopLyricsWidget extends StatelessWidget {
   const DesktopLyricsWidget({super.key});

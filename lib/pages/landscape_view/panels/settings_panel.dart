@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/landscape_view/title_bar.dart';
-import 'package:particle_music/common_widgets/settings_list.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/pages/landscape_view/title_bar.dart';
+import 'package:particle_music/components/settings_list.dart';
 
 class SettingsPanel extends StatefulWidget {
   const SettingsPanel({super.key});

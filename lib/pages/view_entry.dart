@@ -1,11 +1,11 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/landscape_view/landscape_view.dart';
-import 'package:particle_music/landscape_view/pages/play_queue_page.dart';
-import 'package:particle_music/mini_view/mini_view.dart';
-import 'package:particle_music/portrait_view/portrait_view.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/pages/landscape_view/landscape_view.dart';
+import 'package:particle_music/pages/landscape_view/pages/play_queue_page.dart';
+import 'package:particle_music/pages/mini_view/mini_view.dart';
+import 'package:particle_music/pages/portrait_view/portrait_view.dart';
 import 'package:smooth_corner/smooth_corner.dart';
 
 class ViewEntry extends StatelessWidget {

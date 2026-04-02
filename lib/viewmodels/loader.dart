@@ -1,12 +1,12 @@
 import 'dart:io';
 
-import 'package:particle_music/artists_albums_manager.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/layer/layers_manager.dart';
-import 'package:particle_music/library.dart';
-import 'package:particle_music/navidrome_client.dart';
-import 'package:particle_music/playlists.dart';
-import 'package:particle_music/setting_manager.dart';
+import 'package:particle_music/viewmodels/artists_albums_manager.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/pages/layer/layers_manager.dart';
+import 'package:particle_music/viewmodels/library.dart';
+import 'package:particle_music/api/navidrome_client.dart';
+import 'package:particle_music/viewmodels/playlists.dart';
+import 'package:particle_music/viewmodels/setting_manager.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 class Loader {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common_widgets/settings_list.dart';
+import 'package:particle_music/components/settings_list.dart';
 
 class SettingsPage extends StatelessWidget {
   const SettingsPage({super.key});

@@ -3,14 +3,14 @@ import 'dart:io';
 
 import 'package:desktop_multi_window/desktop_multi_window.dart';
 import 'package:flutter/material.dart';
-import 'package:particle_music/audio_handler.dart';
-import 'package:particle_music/history.dart';
-import 'package:particle_music/library.dart';
-import 'package:particle_music/logger.dart';
-import 'package:particle_music/common_widgets/lyrics.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/playlists.dart';
-import 'package:particle_music/setting_manager.dart';
+import 'package:particle_music/viewmodels/audio_handler.dart';
+import 'package:particle_music/viewmodels/history.dart';
+import 'package:particle_music/viewmodels/library.dart';
+import 'package:particle_music/viewmodels/logger.dart';
+import 'package:particle_music/components/lyrics.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/viewmodels/playlists.dart';
+import 'package:particle_music/viewmodels/setting_manager.dart';
 
 const String versionNumber = '1.0.16.2';
 

@@ -1,20 +1,20 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:particle_music/common_widgets/buttons.dart';
-import 'package:particle_music/common_widgets/cover_art_widget.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/my_auto_size_text.dart';
-import 'package:particle_music/common_widgets/playlist_widgets.dart';
-import 'package:particle_music/portrait_view/sleep_timer.dart';
-import 'package:particle_music/common_widgets/my_sheet.dart';
+import 'package:particle_music/components/buttons.dart';
+import 'package:particle_music/components/cover_art_widget.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/my_auto_size_text.dart';
+import 'package:particle_music/components/playlist_widgets.dart';
+import 'package:particle_music/pages/portrait_view/sleep_timer.dart';
+import 'package:particle_music/components/my_sheet.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
-import 'package:particle_music/common_widgets/lyrics.dart';
-import 'package:particle_music/common_widgets/play_queue_sheet.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/playlists.dart';
-import 'package:particle_music/common_widgets/seekbar.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/components/lyrics.dart';
+import 'package:particle_music/components/play_queue_sheet.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/viewmodels/playlists.dart';
+import 'package:particle_music/components/seekbar.dart';
+import 'package:particle_music/utils/utils.dart';
 import 'package:smooth_corner/smooth_corner.dart';
 
 class PortraitLyricsPage extends StatefulWidget {

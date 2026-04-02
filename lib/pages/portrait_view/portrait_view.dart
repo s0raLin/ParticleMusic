@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/landscape_view/sidebar.dart';
-import 'package:particle_music/layer/layers_manager.dart';
-import 'package:particle_music/portrait_view/pages/portrait_lyrics_page.dart';
-import 'package:particle_music/portrait_view/play_bar.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/pages/landscape_view/sidebar.dart';
+import 'package:particle_music/pages/layer/layers_manager.dart';
+import 'package:particle_music/pages/portrait_view/pages/portrait_lyrics_page.dart';
+import 'package:particle_music/pages/portrait_view/play_bar.dart';
 
 class PortraitView extends StatefulWidget {
   const PortraitView({super.key});

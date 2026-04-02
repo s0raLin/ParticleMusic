@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/cover_art_widget.dart';
-import 'package:particle_music/common_widgets/my_auto_size_text.dart';
-import 'package:particle_music/common_widgets/play_queue_sheet.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/cover_art_widget.dart';
+import 'package:particle_music/components/my_auto_size_text.dart';
+import 'package:particle_music/components/play_queue_sheet.dart';
+import 'package:particle_music/utils/utils.dart';
 import 'package:smooth_corner/smooth_corner.dart';
 
 class PlayBar extends StatelessWidget {

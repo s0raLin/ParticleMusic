@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/cover_art_widget.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/cover_art_widget.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/utils/utils.dart';
 
 class SelectableSongListTile extends StatelessWidget {
   final int index;

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/artists_albums_manager.dart';
-import 'package:particle_music/landscape_view/panels/song_list_panel.dart';
-import 'package:particle_music/landscape_view/title_bar.dart';
+import 'package:particle_music/viewmodels/artists_albums_manager.dart';
+import 'package:particle_music/pages/landscape_view/panels/song_list_panel.dart';
+import 'package:particle_music/pages/landscape_view/title_bar.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
-import 'package:particle_music/layer/layers_manager.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/playlists.dart';
+import 'package:particle_music/pages/layer/layers_manager.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/viewmodels/playlists.dart';
 
 class LocalNavidromePanel extends StatelessWidget {
   final Playlist? playlist;

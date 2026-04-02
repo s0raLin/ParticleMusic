@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/artists_albums_manager.dart';
-import 'package:particle_music/layer/layers_manager.dart';
-import 'package:particle_music/portrait_view/pages/song_list_page.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/playlists.dart';
+import 'package:particle_music/viewmodels/artists_albums_manager.dart';
+import 'package:particle_music/pages/layer/layers_manager.dart';
+import 'package:particle_music/pages/portrait_view/pages/song_list_page.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/viewmodels/playlists.dart';
 
 class LocalNavidromePageview extends StatelessWidget {
   final Playlist? playlist;

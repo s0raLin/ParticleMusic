@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/landscape_view/panels/song_list_panel.dart';
-import 'package:particle_music/landscape_view/title_bar.dart';
-import 'package:particle_music/folder.dart';
+import 'package:particle_music/pages/landscape_view/panels/song_list_panel.dart';
+import 'package:particle_music/pages/landscape_view/title_bar.dart';
+import 'package:particle_music/viewmodels/folder.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
 
 class SingleFolderPanel extends StatelessWidget {

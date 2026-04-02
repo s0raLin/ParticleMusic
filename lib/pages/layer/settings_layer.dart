@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/landscape_view/panels/settings_panel.dart';
-import 'package:particle_music/portrait_view/pages/settings_page.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/pages/landscape_view/panels/settings_panel.dart';
+import 'package:particle_music/pages/portrait_view/pages/settings_page.dart';
 
 class SettingsLayer extends StatelessWidget {
   const SettingsLayer({super.key});

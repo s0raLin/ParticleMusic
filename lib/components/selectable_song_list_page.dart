@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/my_auto_size_text.dart';
-import 'package:particle_music/common_widgets/playlist_widgets.dart';
-import 'package:particle_music/folder.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/my_auto_size_text.dart';
+import 'package:particle_music/components/playlist_widgets.dart';
+import 'package:particle_music/viewmodels/folder.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
-import 'package:particle_music/common_widgets/selectable_song_list_tile.dart';
-import 'package:particle_music/portrait_view/my_search_field.dart';
-import 'package:particle_music/common_widgets/my_sheet.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/playlists.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/components/selectable_song_list_tile.dart';
+import 'package:particle_music/pages/portrait_view/my_search_field.dart';
+import 'package:particle_music/components/my_sheet.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/viewmodels/playlists.dart';
+import 'package:particle_music/utils/utils.dart';
 
 class SelectableSongListPage extends StatefulWidget {
   final List<MyAudioMetadata> songList;

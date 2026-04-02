@@ -1,7 +1,7 @@
 import 'package:flutter/widgets.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/utils/utils.dart';
 
 ArtistsAlbumsManager artistsAlbumsManager = ArtistsAlbumsManager();
 

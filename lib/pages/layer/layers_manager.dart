@@ -1,23 +1,23 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:particle_music/artists_albums_manager.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/cover_art_widget.dart';
-import 'package:particle_music/layer/artists_albums_layer.dart';
-import 'package:particle_music/layer/folders_layer.dart';
-import 'package:particle_music/layer/playlists_layer.dart';
-import 'package:particle_music/layer/ranking_layer.dart';
-import 'package:particle_music/layer/recently_layer.dart';
-import 'package:particle_music/layer/settings_layer.dart';
-import 'package:particle_music/layer/single_album_layer.dart';
-import 'package:particle_music/layer/single_artist_layer.dart';
-import 'package:particle_music/layer/single_folder_layer.dart';
-import 'package:particle_music/layer/single_playlist_layer.dart';
-import 'package:particle_music/layer/songs_layer.dart';
-import 'package:particle_music/my_audio_metadata.dart';
-import 'package:particle_music/playlists.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/viewmodels/artists_albums_manager.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/cover_art_widget.dart';
+import 'package:particle_music/pages/layer/artists_albums_layer.dart';
+import 'package:particle_music/pages/layer/folders_layer.dart';
+import 'package:particle_music/pages/layer/playlists_layer.dart';
+import 'package:particle_music/pages/layer/ranking_layer.dart';
+import 'package:particle_music/pages/layer/recently_layer.dart';
+import 'package:particle_music/pages/layer/settings_layer.dart';
+import 'package:particle_music/pages/layer/single_album_layer.dart';
+import 'package:particle_music/pages/layer/single_artist_layer.dart';
+import 'package:particle_music/pages/layer/single_folder_layer.dart';
+import 'package:particle_music/pages/layer/single_playlist_layer.dart';
+import 'package:particle_music/pages/layer/songs_layer.dart';
+import 'package:particle_music/viewmodels/my_audio_metadata.dart';
+import 'package:particle_music/viewmodels/playlists.dart';
+import 'package:particle_music/utils/utils.dart';
 
 final layersManager = LayersManager();
 

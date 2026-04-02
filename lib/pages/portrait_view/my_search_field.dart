@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
+import 'package:particle_music/constants/common.dart';
 
 class MySearchField extends StatelessWidget {
   final String hintText;

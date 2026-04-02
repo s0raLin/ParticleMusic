@@ -1,6 +1,6 @@
-import 'package:particle_music/common.dart';
-import 'package:particle_music/landscape_view/extensions/window_controller_extension.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/pages/landscape_view/extensions/window_controller_extension.dart';
+import 'package:particle_music/utils/utils.dart';
 import 'package:tray_manager/tray_manager.dart';
 import 'package:window_manager/window_manager.dart';
 

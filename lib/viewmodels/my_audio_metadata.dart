@@ -2,8 +2,8 @@ import 'dart:typed_data';
 
 import 'package:audio_tags_lofty/audio_tags_lofty.dart';
 import 'package:flutter/material.dart';
-import 'package:particle_music/common_widgets/lyrics.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/components/lyrics.dart';
+import 'package:particle_music/utils/utils.dart';
 
 class MyAudioMetadata {
   final String? filePath;

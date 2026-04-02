@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/cover_art_widget.dart';
-import 'package:particle_music/common_widgets/playlist_widgets.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/cover_art_widget.dart';
+import 'package:particle_music/components/playlist_widgets.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
-import 'package:particle_music/layer/layers_manager.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/pages/layer/layers_manager.dart';
+import 'package:particle_music/utils/utils.dart';
 import 'package:smooth_corner/smooth_corner.dart';
 import 'package:super_context_menu/super_context_menu.dart';
 import 'package:window_manager/window_manager.dart';

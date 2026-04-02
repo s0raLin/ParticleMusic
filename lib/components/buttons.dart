@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/common.dart';
-import 'package:particle_music/common_widgets/play_queue_sheet.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/components/play_queue_sheet.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/utils/utils.dart';
 
 Widget playModeButton(double size, {Color? iconColor}) {
   return ValueListenableBuilder(

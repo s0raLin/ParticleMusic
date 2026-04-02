@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:ui';
 
-import 'package:particle_music/common.dart';
-import 'package:particle_music/mini_view/mini_view.dart';
-import 'package:particle_music/utils.dart';
+import 'package:particle_music/constants/common.dart';
+import 'package:particle_music/pages/mini_view/mini_view.dart';
+import 'package:particle_music/utils/utils.dart';
 import 'package:window_manager/window_manager.dart';
 
 class MyWindowListener extends WindowListener {
