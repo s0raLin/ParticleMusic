@@ -381,7 +381,7 @@ class _PortraitLyricsPageState extends State<PortraitLyricsPage> {
             IconButton(
               color: Colors.grey.shade50,
 
-              icon: const ImageIcon(playQueueImage, size: 32),
+              icon: ImageIcon(playQueueImage, size: 32),
 
               onPressed: () {
                 tryVibrate();

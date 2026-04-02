@@ -444,7 +444,7 @@ class _MiniViewState extends State<MiniView> {
                 }
               });
             },
-            icon: const ImageIcon(playQueueImage, size: 25),
+            icon: ImageIcon(playQueueImage, size: 25),
             color: Colors.grey.shade50,
           ),
           Spacer(),
@@ -459,7 +459,7 @@ class _MiniViewState extends State<MiniView> {
               }
               lyricsWindowVisible = !lyricsWindowVisible;
             },
-            icon: const ImageIcon(desktopLyricsImage, size: 25),
+            icon: ImageIcon(desktopLyricsImage, size: 25),
 
             color: Colors.grey.shade50,
           ),

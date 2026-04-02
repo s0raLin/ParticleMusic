@@ -28,8 +28,8 @@ class SettingManager {
         json['playlistsUseLargePicture'] as bool? ??
         playlistsUseLargePictureNotifier.value;
 
-    vibrationOnNoitifier.value =
-        json['vibrationOn'] as bool? ?? vibrationOnNoitifier.value;
+    vibrationOnNotifier.value =
+        json['vibrationOn'] as bool? ?? vibrationOnNotifier.value;
 
     final languageCode = json['language'] as String? ?? '';
 
@@ -69,7 +69,7 @@ class SettingManager {
 
         'playlistsUseLargePicture': playlistsUseLargePictureNotifier.value,
 
-        'vibrationOn': vibrationOnNoitifier.value,
+        'vibrationOn': vibrationOnNotifier.value,
         'language': localeNotifier.value == null
             ? ''
             : localeNotifier.value!.languageCode,

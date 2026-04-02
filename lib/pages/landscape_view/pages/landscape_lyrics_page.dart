@@ -347,7 +347,7 @@ class _LandscapeLyricsPageState extends State<LandscapeLyricsPage> {
                       }
                       lyricsWindowVisible = !lyricsWindowVisible;
                     },
-                    icon: const ImageIcon(desktopLyricsImage, size: 25),
+                    icon: ImageIcon(desktopLyricsImage, size: 25),
 
                     color: Colors.grey.shade50,
                   ),

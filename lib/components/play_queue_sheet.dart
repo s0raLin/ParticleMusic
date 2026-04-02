@@ -146,7 +146,7 @@ class PlayQueueSheetState extends State<PlayQueueSheet> {
                       }
                     }
                   },
-                  icon: const ImageIcon(deleteImage),
+                  icon: ImageIcon(deleteImage),
                 ),
               ],
             ),

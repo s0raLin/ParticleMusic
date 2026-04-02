@@ -520,9 +520,7 @@ class _SongListPanel extends BaseSongListState<SongListPanel> {
             }
           } else {
             // clear select
-            for (var tmp in isSelectedList) {
-              tmp.value = false;
-            }
+            clearSelection(isSelectedList);
             isSelected.value = true;
             continuousSelectBeginIndex = index;
           }
@@ -537,9 +535,7 @@ class _SongListPanel extends BaseSongListState<SongListPanel> {
       menuProvider: (_) async {
         // select current and clear others if it's not selected
         if (!isSelected.value) {
-          for (var tmp in isSelectedList) {
-            tmp.value = false;
-          }
+          clearSelection(isSelectedList);
           isSelected.value = true;
           continuousSelectBeginIndex = index;
         }

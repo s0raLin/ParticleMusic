@@ -94,9 +94,7 @@ class PlayQueuePageState extends State<PlayQueuePage> {
                   audioHandler.saveAllStates();
 
                   // clearing selected after reordering
-                  for (var tmp in isSelectedList) {
-                    tmp.value = false;
-                  }
+                  clearSelection(isSelectedList);
                   continuousSelectBeginIndex = 0;
                 },
 
@@ -259,9 +257,7 @@ class PlayQueuePageState extends State<PlayQueuePage> {
             }
           } else {
             // clear select
-            for (var tmp in isSelectedList) {
-              tmp.value = false;
-            }
+            clearSelection(isSelectedList);
             isSelected.value = true;
             continuousSelectBeginIndex = index;
           }
@@ -270,9 +266,7 @@ class PlayQueuePageState extends State<PlayQueuePage> {
       menuProvider: (request) {
         // select current and clear others if it's not selected
         if (!isSelected.value) {
-          for (var tmp in isSelectedList) {
-            tmp.value = false;
-          }
+          clearSelection(isSelectedList);
           isSelected.value = true;
           continuousSelectBeginIndex = index;
         }

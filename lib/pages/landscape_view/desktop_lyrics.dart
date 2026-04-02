@@ -89,7 +89,7 @@ class DesktopLyrics extends StatelessWidget {
         ),
         IconButton(
           color: Colors.grey.shade50,
-          icon: const ImageIcon(previousButtonImage, size: 25),
+          icon: ImageIcon(previousButtonImage, size: 25),
           onPressed: () async {
             final controllers = await WindowController.getAll();
             for (final controller in controllers) {
@@ -121,7 +121,7 @@ class DesktopLyrics extends StatelessWidget {
         ),
         IconButton(
           color: Colors.grey.shade50,
-          icon: const ImageIcon(nextButtonImage, size: 25),
+          icon: ImageIcon(nextButtonImage, size: 25),
           onPressed: () async {
             final controllers = await WindowController.getAll();
             for (final controller in controllers) {

@@ -139,7 +139,7 @@ class BottomControl extends StatelessWidget {
             }
             lyricsWindowVisible = !lyricsWindowVisible;
           },
-          icon: const ImageIcon(desktopLyricsImage, size: 25),
+          icon: ImageIcon(desktopLyricsImage, size: 25),
         ),
         Speaker(color: iconColor),
         Center(

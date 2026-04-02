@@ -589,7 +589,7 @@ class SettingsList extends StatelessWidget {
       leading: ImageIcon(vibrationImage, size: iconSize),
       title: Text(l10n.vibration),
       trailing: ValueListenableBuilder(
-        valueListenable: vibrationOnNoitifier,
+        valueListenable: vibrationOnNotifier,
         builder: (context, value, child) {
           return SizedBox(
             width: 50,
@@ -597,7 +597,7 @@ class SettingsList extends StatelessWidget {
               value: value,
               onToggle: (value) {
                 tryVibrate();
-                vibrationOnNoitifier.value = value;
+                vibrationOnNotifier.value = value;
                 settingManager.saveSetting();
               },
             ),

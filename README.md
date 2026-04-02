@@ -6,6 +6,8 @@
 
 A cross-platform local music player supporting Android, iOS, Windows, Linux and macOS. This project is built for learning Flutter and having some fun.
 
+English | [中文](./README_CN.md)
+
 ## Supported Formats
 
 | File Format | Metadata Format(s)           |
