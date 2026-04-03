@@ -1,12 +1,9 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:particle_music/constants/common.dart';
-import 'package:particle_music/pages/landscape_view/landscape_view.dart';
-import 'package:particle_music/pages/landscape_view/pages/play_queue_page.dart';
-import 'package:particle_music/pages/mini_view/mini_view.dart';
-import 'package:particle_music/pages/portrait_view/portrait_view.dart';
-import 'package:smooth_corner/smooth_corner.dart';
+import 'package:particle_music/components/layout/main_layout.dart';
+import 'package:particle_music/pages/desktop/landscape_view.dart';
+import 'package:particle_music/pages/mini/mini_view.dart';
+import 'package:particle_music/pages/mobile/portrait_view.dart';
 
 class ViewEntry extends StatelessWidget {
   const ViewEntry({super.key});
@@ -19,60 +16,7 @@ class ViewEntry extends StatelessWidget {
         if (miniMode) {
           return MiniView();
         }
-        return Stack(
-          children: [
-            mainView(context),
-
-            if (!isMobile)
-              ValueListenableBuilder(
-                valueListenable: displayPlayQueuePageNotifier,
-                builder: (context, display, _) {
-                  if (display) {
-                    return GestureDetector(
-                      onTap: () {
-                        displayPlayQueuePageNotifier.value = false;
-                      },
-                      child: Container(color: Colors.black.withAlpha(25)),
-                    );
-                  } else {
-                    return SizedBox.shrink();
-                  }
-                },
-              ),
-
-            if (!isMobile)
-              Positioned(
-                top: 75,
-                bottom: isMobile ? 75 : 100,
-                right: 0,
-                child: ValueListenableBuilder(
-                  valueListenable: displayPlayQueuePageNotifier,
-                  builder: (context, display, _) {
-                    return AnimatedSlide(
-                      offset: display ? Offset.zero : Offset(1, 0),
-                      duration: const Duration(milliseconds: 200),
-                      curve: Curves.linear,
-                      child: Material(
-                        elevation: 1,
-                        color: sidebarColor.withAlpha(255),
-                        shape: SmoothRectangleBorder(
-                          smoothness: 1,
-                          borderRadius: BorderRadius.horizontal(
-                            left: Radius.circular(10),
-                          ),
-                        ),
-
-                        child: SizedBox(
-                          width: max(350, MediaQuery.widthOf(context) * 0.2),
-                          child: PlayQueuePage(),
-                        ),
-                      ),
-                    );
-                  },
-                ),
-              ),
-          ],
-        );
+        return MainLayout(content: mainView(context));
       },
     );
   }

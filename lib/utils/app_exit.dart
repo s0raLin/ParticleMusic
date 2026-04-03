@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:particle_music/pages/landscape_view/extensions/window_controller_extension.dart';
-import 'package:particle_music/pages/landscape_view/single_instance.dart';
+import 'package:particle_music/pages/desktop/extensions/window_controller_extension.dart';
+import 'package:particle_music/pages/desktop/single_instance.dart';
 import 'package:particle_music/stores/desktop_lyrics_state.dart';
 import 'package:window_manager/window_manager.dart';
 

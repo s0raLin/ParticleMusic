@@ -1,7 +1,7 @@
 import 'package:flutter_overlay_window/flutter_overlay_window.dart';
 import 'package:particle_music/constants/common.dart';
 import 'package:particle_music/components/lyrics.dart';
-import 'package:particle_music/pages/landscape_view/extensions/window_controller_extension.dart';
+import 'package:particle_music/pages/desktop/extensions/window_controller_extension.dart';
 
 Future<void> updateDesktopLyrics() async {
   if (isMobile) {

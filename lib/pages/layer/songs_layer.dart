@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/pages/landscape_view/panels/songs_panel.dart';
-import 'package:particle_music/pages/portrait_view/pages/songs_page.dart';
+import 'package:particle_music/pages/desktop/panels/songs_panel.dart';
+import 'package:particle_music/pages/mobile/pages/songs_page.dart';
 
 class SongsLayer extends StatelessWidget {
   const SongsLayer({super.key});

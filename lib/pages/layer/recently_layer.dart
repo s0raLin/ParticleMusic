@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:particle_music/pages/landscape_view/panels/recently_panel.dart';
-import 'package:particle_music/pages/portrait_view/pages/recently_page.dart';
+import 'package:particle_music/pages/desktop/panels/recently_panel.dart';
+import 'package:particle_music/pages/mobile/pages/recently_page.dart';
 
 class RecentlyLayer extends StatelessWidget {
   const RecentlyLayer({super.key});

@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+import 'package:particle_music/viewmodels/artists_albums_manager.dart';
+import 'package:particle_music/pages/desktop/panels/local_navidrome_panel.dart';
+
+class SingleArtistPanel extends StatelessWidget {
+  final Artist artist;
+  const SingleArtistPanel({super.key, required this.artist});
+
+  @override
+  Widget build(BuildContext context) {
+    return LocalNavidromePanel(
+      displayNavidromeNotifier: artist.displayNavidromeNotifier,
+      localSongList: artist.songList,
+      navidromeSongList: artist.navidromeSongList,
+      artist: artist,
+    );
+  }
+}
