@@ -4,7 +4,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:particle_music/constants/common.dart';
-import 'package:particle_music/pages/portrait_view/pages/custom_page_transition_builder.dart';
+import 'package:particle_music/pages/mobile/pages/custom_page_transition_builder.dart';
 import 'package:smooth_corner/smooth_corner.dart';
 
 class AppTheme {

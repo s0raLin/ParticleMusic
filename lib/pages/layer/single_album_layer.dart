@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:particle_music/viewmodels/artists_albums_manager.dart';
-import 'package:particle_music/pages/landscape_view/panels/single_album_panel.dart';
-import 'package:particle_music/pages/portrait_view/pages/single_album_page.dart';
+import 'package:particle_music/pages/desktop/panels/single_album_panel.dart';
+import 'package:particle_music/pages/mobile/pages/single_album_page.dart';
 
 class SingleAlbumLayer extends StatelessWidget {
   final Album album;

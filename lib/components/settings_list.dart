@@ -10,7 +10,7 @@ import 'package:particle_music/viewmodels/color_manager.dart';
 import 'package:particle_music/constants/common.dart';
 import 'package:particle_music/pages/layer/layers_manager.dart';
 import 'package:particle_music/viewmodels/loader.dart';
-import 'package:particle_music/pages/portrait_view/sleep_timer.dart';
+import 'package:particle_music/pages/mobile/sleep_timer.dart';
 import 'package:particle_music/l10n/generated/app_localizations.dart';
 import 'package:particle_music/components/my_switch.dart';
 import 'package:particle_music/api/navidrome_client.dart';

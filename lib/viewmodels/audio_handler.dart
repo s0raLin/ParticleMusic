@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_overlay_window/flutter_overlay_window.dart';
 import 'package:media_kit/media_kit.dart';
 import 'package:particle_music/constants/common.dart';
-import 'package:particle_music/pages/landscape_view/extensions/window_controller_extension.dart';
+import 'package:particle_music/pages/desktop/extensions/window_controller_extension.dart';
 import 'package:particle_music/components/lyrics.dart';
 import 'package:particle_music/pages/layer/layers_manager.dart';
 import 'package:particle_music/viewmodels/my_audio_metadata.dart';
