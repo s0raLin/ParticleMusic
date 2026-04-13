@@ -12,7 +12,7 @@ const Color lightModeSwitchColor = Colors.black87;
 const Color lightModePlayBarColor = Color.fromARGB(100, 245, 245, 245);
 const Color lightModePanelColor = Color.fromARGB(100, 245, 245, 245);
 const Color lightModeSidebarColor = Color.fromARGB(100, 238, 238, 238);
-const Color lightModeBottomColor = Color.fromARGB(100, 250, 250, 250);
+const Color lightModeBottomColor = Color.fromARGB(200, 255, 255, 255);
 const Color lightModeSeekBarColor = Colors.black;
 const Color lightModeVolumeBarColor = Colors.black;
 
@@ -25,11 +25,11 @@ const Color darkModeSwitchColor = Color.fromARGB(221, 0, 0, 0);
 const Color darkModePlayerColor = Color.fromARGB(128, 30, 30, 30);
 const Color darkModePanelColor = Color.fromARGB(255, 50, 50, 50);
 const Color darkModeSidebarColor = Color.fromARGB(255, 55, 55, 55);
-const Color darkModeBottomColor = Color.fromARGB(255, 60, 60, 60);
+const Color darkModeBottomColor = Color.fromARGB(255, 95, 95, 95);
 const Color darkModeSearchFieldColor = darkModeCommonColor;
 const Color darkModeButtonColor = darkModeCommonColor;
 const Color darkModeDividerColor = darkModeCommonColor;
-const Color darkModeSelectedItemColor = darkModeCommonColor;
+const Color darkModeSelectedItemColor = Color.fromARGB(255, 75, 75, 75);
 const Color darkModeSeekBarColor = Color.fromARGB(255, 195, 195, 195);
 const Color darkModeVolumeBarColor = Color.fromARGB(255, 195, 195, 195);
 
@@ -129,7 +129,7 @@ class ColorManager {
       searchFieldColor = backgroundFilterColor.withAlpha(75);
       buttonColor = backgroundFilterColor.withAlpha(75);
       dividerColor = backgroundFilterColor;
-      selectedItemColor = backgroundFilterColor.withAlpha(75);
+      selectedItemColor = backgroundFilterColor.withAlpha(100);
       seekBarColor = lightModeSeekBarColor;
       volumeBarColor = lightModeVolumeBarColor;
     }

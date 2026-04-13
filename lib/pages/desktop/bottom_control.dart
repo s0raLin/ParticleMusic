@@ -17,18 +17,20 @@ class BottomControl extends StatelessWidget {
     return ValueListenableBuilder(
       valueListenable: updateColorNotifier,
       builder: (context, _, __) {
-        return BackdropFilter(
-          filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
-          child: Material(
-            color: bottomColor,
-            child: SizedBox(
-              height: 75,
-              child: Stack(
-                children: [
-                  currentSongTile(),
-                  playControls(context),
-                  if (!isMobile) otherControls(),
-                ],
+        return ClipRect(
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+            child: Material(
+              color: bottomColor,
+              child: SizedBox(
+                height: 75,
+                child: Stack(
+                  children: [
+                    currentSongTile(),
+                    playControls(context),
+                    if (!isMobile) otherControls(),
+                  ],
+                ),
               ),
             ),
           ),
