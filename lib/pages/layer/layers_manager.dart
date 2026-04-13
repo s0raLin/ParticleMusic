@@ -200,6 +200,7 @@ class LayersManager {
       buttonColor = backgroundFilterColor.withAlpha(75);
       dividerColor = backgroundFilterColor;
       selectedItemColor = backgroundFilterColor.withAlpha(75);
+      bottomColor = backgroundFilterColor.withAlpha(100);
     }
     updateColorNotifier.value++;
   }

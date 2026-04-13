@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:particle_music/constants/common.dart';
 import 'package:particle_music/components/buttons.dart';
@@ -12,18 +14,26 @@ class BottomControl extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      color: bottomColor,
-      child: SizedBox(
-        height: 75,
-        child: Stack(
-          children: [
-            currentSongTile(),
-            playControls(context),
-            if (!isMobile) otherControls(),
-          ],
-        ),
-      ),
+    return ValueListenableBuilder(
+      valueListenable: updateColorNotifier,
+      builder: (context, _, __) {
+        return BackdropFilter(
+          filter: ImageFilter.blur(sigmaX: 20, sigmaY: 20),
+          child: Material(
+            color: bottomColor,
+            child: SizedBox(
+              height: 75,
+              child: Stack(
+                children: [
+                  currentSongTile(),
+                  playControls(context),
+                  if (!isMobile) otherControls(),
+                ],
+              ),
+            ),
+          ),
+        );
+      },
     );
   }
 
