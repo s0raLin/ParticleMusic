@@ -13,10 +13,7 @@ class LandscapeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MainLayout(
-      content: _buildContent(context),
-      bottomBar: const BottomBar(),
-    );
+    return MainLayout(content: _buildContent(context), bottomBar: null);
   }
 
   Widget _buildContent(BuildContext context) {
@@ -71,6 +68,7 @@ class LandscapeView extends StatelessWidget {
             );
           },
         ),
+        Positioned(left: 0, right: 0, bottom: 0, child: const BottomBar()),
         // LandscapeLyricsPage is handled by pages
       ],
     );

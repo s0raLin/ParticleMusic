@@ -19,7 +19,8 @@ class MainLayout extends StatelessWidget {
     return Stack(
       children: [
         content,
-        if (bottomBar != null) bottomBar!,
+        if (bottomBar != null)
+          Positioned(left: 0, right: 0, bottom: 0, child: bottomBar!),
         _buildPlayQueueOverlay(context),
         _buildPlayQueuePanel(context),
       ],
